@@ -16,18 +16,18 @@
         app:srcCompat="@drawable/login" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/edEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="@color/white"
         android:ems="10"
         android:hint="@string/tEmail"
-        android:background="@color/white"
         android:inputType="textEmailAddress"
         android:padding="12dp" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/edpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -39,7 +39,7 @@
         android:textColorHint="#757575" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btSignin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
