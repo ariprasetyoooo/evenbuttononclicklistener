@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_daftar.xml" value="0.12613981762917933" />
+        <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/drawable/round.xml" value="0.131" />
+        <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_daftar.xml" value="0.536" />
         <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_kedua.xml" value="0.1" />
-        <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_main2.xml" value="0.259375" />
         <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/menu/menu.xml" value="0.1" />
       </map>

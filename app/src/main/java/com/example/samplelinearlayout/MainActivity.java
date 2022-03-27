@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,31 +18,48 @@ public class MainActivity extends AppCompatActivity {
 
     //Deklarasi variabel untuk EditText
     EditText edemail, edpassword;
-
+    TextView register;
     //Deklarasi variabel untuk menyimpan email dan password
     String nama, password;
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu, menu);
-        return super.onCreateOptionsMenu(menu);
 
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (item.getItemId() == R.id.mnDaftar)
-        {
-            Intent i = new Intent(getApplicationContext(),DaftarActivity.class);
-            startActivity(i);
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        register = findViewById(R.id.register);
+//
+//        register.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent ari = new Intent(getApplicationContext(),DaftarActivity.class);
+//                startActivity(ari);
+//            }
+//        });
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//        if (item.getItemId() == R.id.mnDaftar)
+//        {
+//            Intent i = new Intent(getApplicationContext(),DaftarActivity.class);
+//            startActivity(i);
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        register = findViewById(R.id.register);
+
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),DaftarActivity.class);
+                startActivity(i);
+            }
+        });
 
         //menghubungkan variabel btnLogin dengan componen button pada layout
         btnLogin = findViewById(R.id.btSignin);
