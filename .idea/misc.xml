@@ -5,10 +5,15 @@
       <map>
         <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/drawable/round.xml" value="0.131" />
         <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_daftar.xml" value="0.536" />
+        <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_home.xml" value="0.22735507246376813" />
+        <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_item_listview.xml" value="0.22735507246376813" />
         <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_kedua.xml" value="0.1" />
+        <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_lihat_data.xml" value="0.22735507246376813" />
         <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/activity_main2.xml" value="0.259375" />
+        <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/layout/item_listview.xml" value="0.264" />
         <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/TUGAS/SEMESTER 4/PAM/Linear Layout/app/src/main/res/menu/popup_menu.xml" value="0.259375" />
       </map>
     </option>
   </component>
